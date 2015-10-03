@@ -1,0 +1,120 @@
+[data-complete="true"] > label{
+	text-decoration: line-through;
+}
+body{
+	font-family: cursive;
+	font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul > li{
+	line-height: 48px;
+	height: 48px;
+}
+
+ul > li:nth-child(odd){
+	background-color: aliceblue;
+}
+
+ul > li > input[type="checkbox"]{
+	height: 20px;
+	width: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul > li > label{
+	line-height: 24px;
+	height: 24px;
+}
+
+ul > li > input[type="text"]{
+	font-size: 24px;
+	font-family: cursive;
+	
+}
+
+
+
+span.delete{
+	background-image: url("../images/trash.gif");
+	width: 16px;
+	height: 16px;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.edit{
+	background-image: url("../images/File-edit-icon.png");
+	width: 16px;
+	height: 16px;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn-1{
+	margin-left: 10px;
+}
+
+input.show, label{
+	width: 60%;
+    word-break: break-all;
+    display: inline-block;
+    text-align: left;
+}
+
+.show{
+	display: inline-block;
+}
+
+.hidden{
+	display: none;
+}
+
+.update-btn{
+	margin-left: -98px;
+	font-size: 24px;
+	font-family: cursive;
+}
+
+.add-item-btn{
+	font-size: 24px;
+	margin-left: -8px;
+	font-family: cursive;
+	width: 80px;
+}
+
+#new-todo{
+	font-size: 24px;
+	margin-right: 0px;
+	font-family: cursive;
+}
+
+#todo-form{
+	text-align: center;
+}
+
+header > h1{
+	text-align: center;
+}
+
+#cal{
+	font-size: 24px;
+	font-family: cursive;
+}
+
+.display-dt{
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.up, .down{
+	height: 22px;
+	line-height: 23px;
+}
